@@ -112,7 +112,7 @@
     // For demo preview end
     
 
-    Use this for real timer date
+    //Use this for real timer date;
     var timerdate = "2021/02/03";
     
     $("#countdown").countdown(timerdate, function(event) {
