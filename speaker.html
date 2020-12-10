@@ -26,34 +26,34 @@
 </div>
 <!-- Header Section Begin -->
 <header class="header-section">
-<div class="container">
-<div class="logo">
-<a href="./index.html">
-<img src="img/logo.png" alt="" >
-</a>
-</div>
-<div class="nav-menu">
-<nav class="mainmenu mobile-menu">
-<ul>
-<li class="active"><a href="./index.html">Accueil</a></li>
-<li><a href="./about-us.html">À propos</a></li>
-<li><a href="./speaker.html">Participants</a>
-<ul class="dropdown">
-<li><a href="#">main</a></li>
-<li><a href="#">second</a></li>
-<li><a href="#">third</a></li>
-</ul>
-</li>
-<li><a href="./schedule.html">Programmes</a></li>
-<li><a href="./blog.html">Nouveautés</a></li>
-<li><a href="./contact.html">Contact</a></li>
-</ul>
-</nav>
-<img src="img/ue.png" alt="" style="width:90px;height: 55px;margin-left:25px">
-</div>
-<div id="mobile-menu-wrap"></div>
-</div>
-</header>    <!-- Header End -->
+    <div class="container">
+
+        <div class="nav-menu">
+            <a href="index.html">
+            <img src="img/logo.png" alt="" style="width:90px">
+        </a>
+            <nav class="mainmenu mobile-menu">
+                <ul>
+                    <li class="active"><a href="./index.html">Accueil</a></li>
+                    <li><a href="./about-us.html">À propos</a></li>
+                    <li><a href="./speaker.html"style="font-size:14px">Participants</a>
+                        <ul class="dropdown"style="font-size:14px">
+                            <li><a href="#"style="font-size:14px">main</a></li>
+                            <li><a href="#"style="font-size:14px">second</a></li>
+                            <li><a href="#"style="font-size:14px">third</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./schedule.html"style="font-size:14px">Programmes</a></li>
+                    <li><a href="./blog.html"style="font-size:14px">Nouveautés</a></li>
+                    <li><a href="./contact.html"style="font-size:14px">Contact</a></li>
+                    <li><a href="./partners.html"style="font-size:14px">Partners</a></li>
+                </ul>
+            </nav>
+            <img src="img/ue.png" alt="" style="width:90px;height: 55px">
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+</header>   <!-- Header End -->
 
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section">
@@ -454,28 +454,42 @@
                     </div>
                 </div>
             </div>
-            <div class="load-more">
-                <a href="#" class="primary-btn">Load More</a>
-            </div>
+<!--            <div class="load-more">-->
+<!--                <a href="#" class="primary-btn">Load More</a>-->
+<!--            </div>-->
         </div>
     </section>
     <!-- Speaker Section End -->
 
     <!-- Newslatter Section Begin -->
-    <section class="newslatter-section about-newslatter">
-        <div class="container">
-            <div class="newslatter-inner set-bg" data-setbg="img/newslatter-bg.jpg">
-                <div class="ni-text">
-                    <h3>Subscribe Newsletter</h3>
-                    <p>Subscribe to our newsletter and don’t miss anything</p>
-                </div>
-                <form action="#" class="ni-form">
-                    <input type="text" placeholder="Your email">
-                    <button type="submit">Subscribe</button>
-                </form>
+<section class="newslatter-section">
+    <div class="container">
+        <div class="newslatter-inner set-bg" data-setbg="img/newslatter-bg.jpg">
+            <div class="ni-text">
+                <h3>Abonnez-vous à la newsletter</h3>
+                <p>Abonnez-vous à notre newsletter et ne manquez rien</p>
             </div>
+            <form class="ni-form">
+                <input type="text" placeholder="Your email" name="email" type="email" required="">
+                <button type="button" name="btn">Abonnez</button>
+                <script type="text/javascript">
+                    var form =document.getElementsByTagName("form")[0];
+                    form.btn.addEventListener('click', function() {
+                        var http = new XMLHttpRequest();
+                        http.open('POST', 'forms/newsletter.php', true);
+                        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                        http.onreadystatechange = function() {
+                            if(http.readyState == 4 && http.status == 200 && http.responseText){
+                                form.email.style="background:"+http.responseText;
+                            }}
+                        http.send("email="+form.email.value);
+                    });
+
+                </script>
+            </form>
         </div>
-    </section>
+    </div>
+</section>
     <!-- Newslatter Section End -->
 
     <!-- Contact Section Begin -->
