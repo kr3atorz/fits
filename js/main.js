@@ -112,17 +112,11 @@
     // For demo preview end
     
 
-<<<<<<< HEAD
     // Use this for real timer date
       var timerdate = "2021/02/03"; 
 
 	$("#countdown").countdown(timerdate, function(event) {
-=======
-    //Use this for real timer date;
 
-    
-    $("#countdown").countdown(timerdate, function(event) {
->>>>>>> 7b308e9ce5a89536e5463c765472a46c6651686a
         $(this).html(event.strftime("<div class='cd-item'><span>%D</span> <p>Days</p> </div>" + "<div class='cd-item'><span>%H</span> <p>Hrs</p> </div>" + "<div class='cd-item'><span>%M</span> <p>Mins</p> </div>" + "<div class='cd-item'><span>%S</span> <p>Secs</p> </div>"));
     });
 
