@@ -13,7 +13,7 @@ if ($_POST['email'] != "")
 		else
 		{
 //mysql
-		$conn = new PDO("mysql:host=localhost;dbname=newsletter", 'root');
+		$conn = new PDO("mysql:host=localhost;dbname=newsletter", 'root', 'root');
 		$stmt1 = $conn->prepare("SELECT email FROM newsletter WHERE email = :e");
 		$stmt1->bindParam(':e', $_POST['email']);
 		$stmt1->execute();
