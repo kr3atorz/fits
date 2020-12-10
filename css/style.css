@@ -1042,6 +1042,7 @@ ol {
 
 .cs-text ul {
 	margin-bottom: 22px;
+	padding-left: 0px;
 }
 
 .cs-text ul li {
@@ -1091,8 +1092,8 @@ ol {
 
 .footer-section {
 	background: #171822;
-	padding-top: 50px;
-	padding-bottom: 60px;
+	padding-top: 40px;
+	padding-bottom:  40px;
 }
 
 .partner-logo {
@@ -1113,7 +1114,7 @@ ol {
 
 .footer-text {
 	text-align: center;
-	padding-top: 60px;
+	/*padding-top: 60px;*/
 }
 
 .footer-text .ft-logo {
@@ -1339,7 +1340,7 @@ ol {
 -----------------------*/
 
 .testimonial-section {
-	padding-bottom: 40px;
+	/*padding-bottom: 40px;*/
 	overflow: hidden;
 }
 
@@ -1458,6 +1459,8 @@ ol {
 .speaker-item .si-pic img {
 	min-width: 100%;
 	border-radius: 2px;
+	width:330px;
+	height:405px;
 }
 
 .speaker-item .si-text .si-title {
