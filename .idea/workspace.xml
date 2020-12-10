@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99046973-b036-485a-951d-8981f87ffffb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speaker.html" beforeDir="false" afterPath="$PROJECT_DIR$/speaker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +33,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../festival-sandroses" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+=======
+    <property name="node.js.path.for.package.tslint" value="project" />
+>>>>>>> trying_to_merge
+=======
+    <property name="node.js.path.for.package.tslint" value="project" />
+>>>>>>> jsremove
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,5 +76,17 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> Stashed changes
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> trying_to_merge
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> jsremove
   </component>
 </project>
