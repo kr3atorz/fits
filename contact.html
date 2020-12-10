@@ -122,20 +122,21 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form action="#" class="comment-form contact-form">
+                    <form name="form" class="comment-form contact-form">
                         <div class="row">
                             <div class="col-lg-4">
-                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Name" name="name" minlength="5" required="">
                             </div>
                             <div class="col-lg-4">
-                                <input type="text" placeholder="Email">
+                                <input type="text" placeholder="Email" name="email" required="">
                             </div>
                             <div class="col-lg-4">
-                                <input type="text" placeholder="Phone">
+                                <input type="text" placeholder="Phone" name="phone" type="number" minlength="8" required="">
                             </div>
                             <div class="col-lg-12 text-center">
-                                <textarea placeholder="Messages"></textarea>
-                                <button type="submit" class="site-btn">Send Message</button>
+                                <textarea placeholder="Messages" name="message" minlength="5" required=""></textarea>
+                                <button type="button" name="btn" class="site-btn">Send Message</button>
+                                <p id="#response" style="display: none"></p>
                             </div>
                         </div>
                     </form>
@@ -143,6 +144,23 @@
             </div>
         </div>
     </section>
+    <script type="text/javascript">
+        var form =document.getElementsByTagName("form")[0];
+      form.btn.addEventListener('click', function() {
+var http = new XMLHttpRequest();
+http.open('POST', 'forms/contact.php', true);
+http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+http.onreadystatechange = function() {
+    if(http.readyState == 4 && http.status == 200 && http.responseText){
+        var response=document.getElementById("#response");
+        response.innerText=http.responseText;
+        response.style="display:block";
+    }}
+if (form.checkValidity()){
+http.send("email="+form.email.value+"&name="+form.name.value+"&phone="+form.phone.value+"&message="+form.email.value);}
+});
+
+</script>
     <!-- Contact Form Section End -->
 
     <!-- Footer Section Begin -->
