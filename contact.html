@@ -142,23 +142,23 @@
             </div>
         </div>
     </section>
-<!--    <script type="text/javascript">-->
-<!--        var form =document.getElementsByTagName("form")[0];-->
-<!--      form.btn.addEventListener('click', function() {-->
-<!--var http = new XMLHttpRequest();-->
-<!--http.open('POST', 'forms/contact.php', true);-->
-<!--http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');-->
-<!--http.onreadystatechange = function() {-->
-<!--    if(http.readyState == 4 && http.status == 200 && http.responseText){-->
-<!--        var response=document.getElementById("#response");-->
-<!--        response.innerText=http.responseText;-->
-<!--        response.style="display:block";-->
-<!--    }}-->
-<!--if (form.checkValidity()){-->
-<!--http.send("email="+form.email.value+"&name="+form.name.value+"&phone="+form.phone.value+"&message="+form.email.value);}-->
-<!--});-->
+    <script type="text/javascript">
+        var form =document.getElementsByTagName("form")[0];
+      form.btn.addEventListener('click', function() {
+var http = new XMLHttpRequest();
+http.open('POST', 'forms/contact.php', true);
+http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+http.onreadystatechange = function() {
+    if(http.readyState == 4 && http.status == 200 && http.responseText){
+        var response=document.getElementById("#response");
+        response.innerText=http.responseText;
+        response.style="display:block";
+    }}
+if (form.checkValidity()){
+http.send("email="+form.email.value+"&name="+form.name.value+"&phone="+form.phone.value+"&message="+form.email.value);}
+});
 
-<!--</script>-->
+</script>
     <!-- Contact Form Section End -->
 
     <!-- Footer Section Begin -->
