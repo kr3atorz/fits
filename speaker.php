@@ -77,7 +77,7 @@ if (isset($_GET["lang"])){function clean($string){$string = str_replace(' ', '-'
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
-                        <h2><?php echo l::speaker_h2;?></h2>
+                        <h2><?php echo l::speakers_h2;?></h2>
                     </div>
                 </div>
             </div>
