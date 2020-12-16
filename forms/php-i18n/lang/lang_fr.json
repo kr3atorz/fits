@@ -1,0 +1,221 @@
+{
+	"language": "fr",
+	"title":"Festival internationnal Du Theatre au Sahara",
+	"menu": {
+		"home": "Accueil",
+		"about":"À propos",
+		"speaker":"Participants",
+		"schedule":"Programmes",
+		"blog":"Nouveautés",
+		"contact":"Contact",
+		"partners":"Partnenaires"
+	},
+	"hero":{
+		"span":"De 3 au 7 Féverier 2021, kébili, Tunis",
+		"h2":"Festival internationnal Du<br/>Theatre au Sahara"
+
+	},
+	"counter":{
+		"span":"Date de festival",
+		"h3":"Comptez chaque seconde<br/>Jusqu'à l'événement"
+	},
+	"home_about":{
+		"h2":"Présentation du projet",
+		"p":"Le festival donnera un nouvel élan au théâtre et pratique théâtrale arabe et méditerranéenne en offrant une nouvelle approche de la présentation du théâtre peu développé jusqu'à là. C’est l’art et la littérature du désert qui sont ici mis en exergue car on exploite l’espace colossal du désert comme étant un théâtre à ciel ouvert dans lequel on peut jouer et présenter toutes sortes d'expressions dramatiques et artistiques. Le festival est né d’un rêve vécu par leurs organisateurs : c'est de faire sortir la présentation théâtrale de son monde naturel (la boîte italienne) envers des espaces immensément ouverts et larges composés de sables et dunes. Cet avantage (et des fois contraintes) obligerait les acteurs et artistes de modifier leurs approches de création en tenant compte de ces nouvelles donnes artistiques et imaginer des solutions et astuces pour se familiariser avec ce monde artistique nouvel."
+	},
+	"speakers":{
+		"h2":"Les stars participants au festival",
+		"p":"Leurs productions représentées au festival:",
+		"spk1":{
+			"h5":"Dalila Meftahi",
+			"span":"Actrice",
+			"p":"Dalila Meftahi is an actress, known for Day of the Falcon (2011), Galb Edhib (2020) and Fin Décembre (2010)."
+		},
+		"spk2":{
+			"h5":"Mohamed Kouka",
+			"span":"Acteur",
+			"p":"Mohamed Kouka est un acteur tunisien."
+		},
+		"spk3":{
+			"h5":"Salah Jday",
+			"span":"Acteur",
+			"p":"Salah Jday, né le 19 février 1965, est un acteur, producteur et réalisateur tunisien."
+		},
+		"spk4":{
+			"h5":"Slah Msaddak",
+			"span":"Acteur",
+			"p":"Slah Msadek, né en 1958, est un acteur tunisien."
+		},
+		"spk5":{
+			"h5":"Sihem Msaddak",
+			"span":"Actrice",
+			"p":"Sihem Msadek, est une actrice tunisienne."
+		},
+		"spk6":{
+			"h5":"Noureddine Ayari",
+			"span":"Acteur",
+			"p":"Mounir Argui, est un acteur tunisien."
+		},
+		"spk7":{
+			"h5":"Mounir Argui",
+			"span":"Acteur",
+			"p":"Mounir Argui, est un acteur tunisien."
+		},
+		"spk8":{
+			"h5":"Kamel Allaoui",
+			"span":"Acteur",
+			"p":"Kamel Allaoui, est un acteur tunisien."
+		},
+		"spk9":{
+			"h5":"Chedli Arfaoui",
+			"span":"Acteur",
+			"p":"Il est le président d'un festival, les Journées Abdelwaheb Jamli du théâtre libre, créé au lendemain de la révolution de 2011 en hommage à l’acteur et homme de théâtre Abdelwaheb Jamli, décédé la même année."
+		},
+		"spk10":{
+			"h5":"Aroussi Zbidi",
+			"span":"Acteur",
+			"p":"Aroussi Zbidi, né en 1973, est un acteur tunisien"
+		},
+		"spk11":{
+			"h5":"Ridha Ben Mansour",
+			"span":"Acteur",
+			"p":"Ridha Ben Mansour, est un acteur tunisien."
+		},
+		"spk12":{
+			"h5":"Bechir Abdeladhim",
+			"span":"Acteur",
+			"p":"Bechir Abdeladhim, est un acteur tunisien."
+		},
+		"spk13":{
+			"h5":"Abdellatif Boualleg",
+			"span":"Acteur",
+			"p":"Abdellatif Boualleg, est un acteur tunisien."
+		},
+		"spk14":{
+			"h5":"Mohamed Tawfik Khalfaoui",
+			"span":"Acteur",
+			"p":"Mohamed Tawfik Khalfaoui, né en 1958, est un acteur tunisien"
+		},
+		"spk15":{
+			"h5":"Ghannam Ghannam",
+			"span":"Acteur",
+			"p":"Ghannam Ghannam, né en 1955, est un acteur tunisien."
+		}
+	},
+	"schedule":{
+		"calentrier" : "Calendrier des événements",
+		"h2":"Notre planning",
+		"p":"Ne manquez rien du sujet de l'événement",
+		"table": {
+			"nav": {
+				"item1": "Conférence de presse",
+				"item2": "Festival",
+				"item3": "Atelier Jeux D'acteur"
+			},
+			"itable": {
+				"debut" : "Date de début",
+				"fin": "Date de fin",
+				"risque": "Risques/problèmes potentiels",
+				"strat": "Stratégie d'atténuation des risques",
+				"statut": "Statut",
+			},
+			"conf": {
+				"nom": "Conférence de presse",
+				"risque1": "Quarantaine complète",
+				"risque2": "Couvre-feu",
+				"start": "Report de la conférence",
+				"status": "Non-démarré",
+			},
+			"fest": {
+				"nom": "Festival",
+				"risque1": "Quarantaine complète",
+				"risque2": "Couvre-feu",
+				"start": "Report le Festival",
+				"status": "Non-démarré",
+			}
+		},
+		"nav":{
+			"item1":{
+				"h6":"Atelier Jeux D'acteur (Gafsa)",
+				"p":"19 Dec 2020",
+				"date":{"p1":"Date de début - Fin","p2":"19 Dec 2020 - 31 Jan 2021","p3":"Gafsa"},
+				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Gafsa"},
+				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
+				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
+			},
+			"item2":{
+				"h6":"Atelier Jeux D'acteur (Touzer)",
+				"p":"19 Dec 2020",
+					"date":{"p1":"Date de début - Fin","p2":"19 Dec 2020 - 31 Jan 2021","p3":"Touzer"},
+				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Touzer"},
+				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
+				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
+			},
+			"item3":{
+				"h6":"Atelier Jeux D'acteur (Gabes)",
+				"p":"20 Dec 2020",
+					"date":{"p1":"Date de début - Fin","p2":"20 Dec 2020 - 31 Jan 2021","p3":"Gabes"},
+				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Gabes"},
+				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
+				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
+			},
+			"item4":{
+				"h6":"Atelier Jeux D'acteur (Kébili)",
+				"p":"20 Dec 2020",
+					"date":{"p1":"Date de début - Fin","p2":"20 Dec 2020 - 31 Jan 2021","p3":"Kébili"},
+				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Kébili"},
+				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
+				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
+			},
+			"item5":{
+				"h6":"Atelier Jeux D'acteur (Tataouine)",
+				"p":"21 Dec 2020",
+					"date":{"p1":"Date de début - Fin","p2":"21 Dec 2020 - 31 Jan 2021","p3":"Tataouine"},
+				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Tataouine"},
+				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
+				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
+			},
+			"item6":{
+				"h6":"Atelier Jeux D'acteur (Medenine)",
+				"p":"21 Dec 2020",
+					"date":{"p1":"Date de début - Fin","p2":"21 Dec 2020 - 31 Jan 2021","p3":"Medenine"},
+				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Medenine"},
+				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
+				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
+			}
+		}
+	},
+	"newsletter":{
+		"h3":"Abonnez-vous à la newsletter",
+		"p":"Abonnez-vous à notre newsletter et ne manquez rien",
+		"btn":"Abonnez"
+	},
+	"contact":{
+		"h2":"Location",
+		"p1":"Itinéraire vers notre centre d'événements",	
+		"adr":"Addresse:",
+		"p2":"Avenue de Kairouan, Tozeur <br/>Tunisia",
+		"phone":"Phone:",
+		"email":"Email:",
+		"h5":"kébili, jemna, Azzoubeir 4214 ibn Abdalla Rue 2",
+		"p3":"Société \"Art des deux rives\""
+		},
+	"about_us":{
+		"h2":"À propos",
+		"about_section":{
+			"h2":"À propos de nous",
+			"p1":"L'idée du festival est née d'un souhait d'expérimentation : c'est de transférer la présentation des pièces du théâtre dans une scène plus large c'est le sable du désert. Les dunes serviront de sièges naturels pour les spectateurs. C'est aussi un souhait de développer le tourisme culturel au gouvernorat de kebili, et spécialement au village de Sabria. C'est aussi de se permettre dans le cadre de ce festival de favoriser la recherche scientifique autour du thème du théâtre et d’inviter le plus grand nombre de chercheurs dans ce domaine. Aussi, cela permettrai d'attirer à la région un grand nombre de stars comédiens, musiciens, chanteurs et autres, action qui pourrai plus encore développer la vie culturelle dans ces régions qui souffrent jusque-là d’un désertification culturelle pendant des décennies.",
+			"h3":"Festival internationnal Du Theatre au Sahara",
+			"p2":"Le festival donnera un nouvel élan au théâtre et pratique théâtrale arabe et méditerranéenne en offrant une nouvelle approche de la présentation du théâtre peu développé jusqu'à là. C’est l’art et la littérature du désert qui sont ici mis en exergue car on exploite l’espace colossal du désert comme étant un théâtre à ciel ouvert dans lequel on peut jouer et présenter toutes sortes d'expressions dramatiques et artistiques. Le festival est né d’un rêve vécu par leurs organisateurs : c'est de faire sortir la présentation théâtrale de son monde naturel (la boîte italienne) envers des espaces immensément ouverts et larges composés de sables et dunes. Cet avantage (et des fois contraintes) obligerait les acteurs et artistes de modifier leurs approches de création en tenant compte de ces nouvelles donnes artistiques et imaginer des solutions et astuces pour se familiariser avec ce monde artistique nouvel."
+	}
+	},
+	"speakrer":{
+		"h2":"Intervenants principaux"
+
+	},
+	"contact_p":{
+		"h2":"Contact Us By Email!",
+		"p":"Fill out the form below to recieve a free and confidential intial consultation."
+	},
+	"partners": "Nos Partenaires & Sponsors"
+}
