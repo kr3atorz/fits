@@ -36,9 +36,9 @@ if (isset($_GET["lang"])){function clean($string){$string = str_replace(' ', '-'
     <div class="container">
 
         <div class="nav-menu">
-            <a href="index.html">
-            <img src="img/fits logo.jpeg" alt="" style="width: 95px;height: 55px;">
-        </a>
+            <a href="index.php">
+                <img src="img/fits logo.jpeg" alt="" style="width: 95px;height: 55px;">
+            </a>
             <nav class="mainmenu mobile-menu">
                 <ul>
                     <li class="active"><a href="./index.php"><?php echo l::menu_home;?></a></li>
@@ -48,9 +48,24 @@ if (isset($_GET["lang"])){function clean($string){$string = str_replace(' ', '-'
                     <li><a href="./blog.php"style="font-size:14px"><?php echo l::menu_blog;?></a></li>
                     <li><a href="./contact.php"style="font-size:14px"><?php echo l::menu_contact;?></a></li>
                     <li><a href="./partners.php"style="font-size:14px"><?php echo l::menu_partners;?></a></li>
+                    <li><div class="switch-lang">
+
+                            <div class="current-lang">
+                                <img class="lang-flag" src="img/<?php echo $_SESSION["lang"];?>.png"/>
+                                <p class="lang-text"><?php echo l($_SESSION["lang"]);?></p>
+                            </div>
+                            <div class="lang-dropdown">
+                                <?php
+                                $languages=array('fr','ar');
+                                foreach($languages as $l) {
+                                    if ($l != $_SESSION["lang"]){
+                                        echo '<div class="selecting-lang" lang="'.$l.'"><img class="lang-flag" src="img/'.$l.'.png"/>
+                <p class="lang-text">'.l($l).'</p></div>';}}?>
+                            </div>
+                    </li>
                 </ul>
             </nav>
-            <img src="img/ue.png" alt="" style="width:90px;height: 55px">
+            <a href="index.php"> <img src="img/ue.png" alt="" style="width:90px;height: 55px"> </a>
         </div>
         <div id="mobile-menu-wrap"></div>
     </div>
