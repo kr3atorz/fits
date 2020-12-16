@@ -1,7 +1,8 @@
 <?php
+// error_reporting(0);
   require_once './forms/php-i18n/i18n.class.php';
   session_start();
-if (isset($_GET["lang"])){function clean($string){$string = str_replace(' ', '-', $string);return preg_replace('/[^A-Za-z0-9\-]/', '', $string);}$_GET["lang"]=clean($_GET["lang"]);$_SESSION["lang"]=$_GET["lang"];}
+if (isset($_POST["lang"])){function clean($string){$string = str_replace(' ', '-', $string);return preg_replace('/[^A-Za-z0-9\-]/', '', $string);}$_SESSION["lang"]=clean($_POST["lang"]);}
   $i18n = new i18n('./forms/php-i18n/lang/lang_{LANGUAGE}.json', './forms/php-i18n/langcache/', 'fr','l');
   $i18n->init();
 ?>
@@ -28,15 +29,15 @@ if (isset($_GET["lang"])){function clean($string){$string = str_replace(' ', '-'
 </head>
 <body>
 <!-- Page Preloder -->
-<div id="preloder">
-    <div class="loader"></div>
-</div>
+<!-- <div id="preloder"> -->
+    <!-- <div class="loader"></div> -->
+<!-- </div> -->
 <!-- Header Section Begin -->
 <header class="header-section">
     <div class="container">
 
         <div class="nav-menu">
-            <a href="index.html">
+            <a href="index.php">
             <img src="img/fits logo.jpeg" alt="" style="width: 95px;height: 55px;">
         </a>
             <nav class="mainmenu mobile-menu">
@@ -48,19 +49,28 @@ if (isset($_GET["lang"])){function clean($string){$string = str_replace(' ', '-'
                     <li><a href="./blog.php"style="font-size:14px"><?php echo l::menu_blog;?></a></li>
                     <li><a href="./contact.php"style="font-size:14px"><?php echo l::menu_contact;?></a></li>
                     <li><a href="./partners.php"style="font-size:14px"><?php echo l::menu_partners;?></a></li>
+                    <li><div class="switch-lang"> 
+
+            <div class="current-lang">
+                <img class="lang-flag" src="img/<?php echo $_SESSION["lang"];?>.png"/>
+              <p class="lang-text"><?php echo l($_SESSION["lang"]);?></p>
+            </div>
+            <div class="lang-dropdown">
+              <?php 
+              $languages=array('fr','ar');
+              foreach($languages as $l) {
+                if ($l != $_SESSION["lang"]){
+              echo '<div class="selecting-lang" lang="'.$l.'"><img class="lang-flag" src="img/'.$l.'.png"/>
+                <p class="lang-text">'.l($l).'</p></div>';}}?>
+              </div>
+            </li>
                 </ul>
             </nav>
-            <img src="img/ue.png" alt="" style="width:90px;height: 55px">
+                  <a href="index.php"> <img src="img/ue.png" alt="" style="width:90px;height: 55px"> </a>
         </div>
         <div id="mobile-menu-wrap"></div>
     </div>
 </header>
-
-
-
-
-
-
 
 <!-- Header End -->
 <!-- Hero Section Begin -->
@@ -1242,6 +1252,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="js/main.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-
+<script type="text/javascript">
+    for (var t of document.getElementsByClassName('selecting-lang')){
+  t.addEventListener('click', function() {
+var http = new XMLHttpRequest();
+http.open('POST', 'index.php', true);
+http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+http.onreadystatechange = function() {
+    if(http.readyState == 4 && http.status == 200 && http.responseText){
+        window.location.reload();
+    }}
+http.send("lang="+this.getAttribute("lang"));
+});}
+</script>
 </body>
 </html>
