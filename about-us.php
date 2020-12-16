@@ -98,77 +98,77 @@ if (isset($_GET["lang"])){function clean($string){$string = str_replace(' ', '-'
 </section>
 
 <!-- Testimonial Section Begin -->
-<!--<section class="testimonial-section spad">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-lg-12">-->
-<!--                <div class="section-title">-->
-<!--                    <h2>Témoignages</h2>-->
-<!--                    <p>Ce que les Maghrebians pense de nous.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-lg-12">-->
-<!--                <div class="row">-->
-<!--                    <div class="testimonial-slider owl-carousel">-->
-<!--                        <div class="col-lg-6">-->
-<!--                            <div class="testimonial-item">-->
-<!--                                <div class="ti-author">-->
-<!--                                    <div class="quote-pic">-->
-<!--                                        <img src="img/quote.png" alt="" >-->
-<!--                                    </div>-->
-<!--                                    <div class="ta-pic">-->
-<!--                                        <img src="img/testimonial/testimonial-1.jpg" alt="" >-->
-<!--                                    </div>-->
-<!--                                    <div class="ta-text">-->
-<!--                                        <h5>Ahmed</h5>-->
-<!--                                        <span>Un visiteur</span>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <p>“j'ai hâte de participer a cet événement.”</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-6">-->
-<!--                            <div class="testimonial-item">-->
-<!--                                <div class="ti-author">-->
-<!--                                    <div class="quote-pic">-->
-<!--                                        <img src="img/quote.png" alt="" >-->
-<!--                                    </div>-->
-<!--                                    <div class="ta-pic">-->
-<!--                                        <img src="img/testimonial/testimonial-2.jpg" alt="" >-->
-<!--                                    </div>-->
-<!--                                    <div class="ta-text">-->
-<!--                                        <h5>Mohamed Ali</h5>-->
-<!--                                        <span>Un Visiteur</span>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <p>“ Une très bonne initiative en Sud de la Tunisie”</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-6">-->
-<!--                            <div class="testimonial-item">-->
-<!--                                <div class="ti-author">-->
-<!--                                    <div class="quote-pic">-->
-<!--                                        <img src="img/quote.png" alt="" >-->
-<!--                                    </div>-->
-<!--                                    <div class="ta-pic">-->
-<!--                                        <img src="img/testimonial/testimonial-2.jpg" alt="" >-->
-<!--                                    </div>-->
-<!--                                    <div class="ta-text">-->
-<!--                                        <h5>Person</h5>-->
-<!--                                        <span>Speaker Manager</span>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <p>“ something here.”</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
+<section class="testimonial-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Témoignages</h2>
+                    <p>Ce que les Maghrebians pense de nous.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="testimonial-slider owl-carousel">
+                        <div class="col-lg-6">
+                            <div class="testimonial-item">
+                                <div class="ti-author">
+                                    <div class="quote-pic">
+                                        <img src="img/quote.png" alt="" >
+                                    </div>
+                                    <div class="ta-pic">
+                                        <img src="img/testimonial/testimonial-1.jpg" alt="" >
+                                    </div>
+                                    <div class="ta-text">
+                                        <h5>Ahmed</h5>
+                                        <span>Un visiteur</span>
+                                    </div>
+                                </div>
+                                <p>“j'ai hâte de participer a cet événement.”</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="testimonial-item">
+                                <div class="ti-author">
+                                    <div class="quote-pic">
+                                        <img src="img/quote.png" alt="" >
+                                    </div>
+                                    <div class="ta-pic">
+                                        <img src="img/testimonial/testimonial-2.jpg" alt="" >
+                                    </div>
+                                    <div class="ta-text">
+                                        <h5>Mohamed Ali</h5>
+                                        <span>Un Visiteur</span>
+                                    </div>
+                                </div>
+                                <p>“ Une très bonne initiative en Sud de la Tunisie”</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="testimonial-item">
+                                <div class="ti-author">
+                                    <div class="quote-pic">
+                                        <img src="img/quote.png" alt="" >
+                                    </div>
+                                    <div class="ta-pic">
+                                        <img src="img/testimonial/testimonial-2.jpg" alt="" >
+                                    </div>
+                                    <div class="ta-text">
+                                        <h5>Person</h5>
+                                        <span>Speaker Manager</span>
+                                    </div>
+                                </div>
+                                <p>“ something here.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Testimonial Section End -->
 <!-- Newslatter Section Begin -->
 <section class="newslatter-section">
