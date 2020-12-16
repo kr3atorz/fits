@@ -322,7 +322,7 @@ if (isset($_POST["lang"])){function clean($string){$string = str_replace(' ', '-
             <span><?php echo l::speakers_spk12_span;?></span>
         </div>
     </div>
-    <div class="member-item set-bg" data-setbg="img/team-member/Boualleg.jpg">
+    <div class="member-item set-bg" data-setbg="img/team-member/boualleg.jpg">
         <div class="mi-social">
             <div class="mi-social-inner bg-gradient">
                 <a href="https://www.facebook.com/profile.php?id=100000808013743"><i class="fa fa-facebook"></i></a>

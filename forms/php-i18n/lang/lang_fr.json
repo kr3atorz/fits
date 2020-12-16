@@ -1,8 +1,5 @@
 {
-
 	"language": "fr",
-	"fr":"francais",
-	"ar":"arabe",
 	"title":"Festival internationnal Du Theatre au Sahara",
 	"menu": {
 		"home": "Accueil",
@@ -106,8 +103,37 @@
 		}
 	},
 	"schedule":{
+		"calentrier" : "Calendrier des événements",
 		"h2":"Notre planning",
 		"p":"Ne manquez rien du sujet de l'événement",
+		"table": {
+			"nav": {
+				"item1": "Conférence de presse",
+				"item2": "Festival",
+				"item3": "Atelier Jeux D'acteur"
+			},
+			"itable": {
+				"debut" : "Date de début",
+				"fin": "Date de fin",
+				"risque": "Risques/problèmes potentiels",
+				"strat": "Stratégie d'atténuation des risques",
+				"statut": "Statut",
+			},
+			"conf": {
+				"nom": "Conférence de presse",
+				"risque1": "Quarantaine complète",
+				"risque2": "Couvre-feu",
+				"start": "Report de la conférence",
+				"status": "Non-démarré",
+			},
+			"fest": {
+				"nom": "Festival",
+				"risque1": "Quarantaine complète",
+				"risque2": "Couvre-feu",
+				"start": "Report le Festival",
+				"status": "Non-démarré",
+			}
+		},
 		"nav":{
 			"item1":{
 				"h6":"Atelier Jeux D'acteur (Gafsa)",
@@ -190,5 +216,6 @@
 	"contact_p":{
 		"h2":"Contact Us By Email!",
 		"p":"Fill out the form below to recieve a free and confidential intial consultation."
-	}
+	},
+	"partners": "Nos Partenaires & Sponsors"
 }
