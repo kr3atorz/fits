@@ -18,7 +18,7 @@ $stmt->bindParam(':desc', $_POST["description"]);
 $stmt->bindParam(':author', $_POST["author"]);
 $stmt->execute();
 
-move_uploaded_file($_FILES["imgs"]["tmp_name"],"../fits/".$target_file);
+move_uploaded_file($_FILES["imgs"]["tmp_name"],"../".$target_file);
 header('Location: ' . $_SERVER['HTTP_REFERER']);
 }
 else{echo "parse error\n".var_dump($_POST)."\n".var_dump($_FILES);}

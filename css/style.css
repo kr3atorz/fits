@@ -2459,16 +2459,17 @@ ol {
 }
 .lang-dropdown {
   display: none;
-  background: #34495e;
+  background: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
   border-radius: 5px;
   margin-top: -10px;
   width: 110px;
 }
 .selecting-lang {
-  padding: 3px 5px 3px 5px;
+  padding: 5px 5px 5px 5px;
   cursor: pointer;
   border-radius: 5px;
+  margin-left: 5px;
 }
 .selecting-lang:hover {
-  background: #22313f;
+  background: tomato;
 }
