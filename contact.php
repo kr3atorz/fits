@@ -1,12 +1,13 @@
 <?php
-require_once './forms/php-i18n/i18n.class.php';
-session_start();
-if (isset($_GET["lang"])){function clean($string){$string = str_replace(' ', '-', $string);return preg_replace('/[^A-Za-z0-9\-]/', '', $string);}$_GET["lang"]=clean($_GET["lang"]);$_SESSION["lang"]=$_GET["lang"];}
-$i18n = new i18n('./forms/php-i18n/lang/lang_{LANGUAGE}.json', './forms/php-i18n/langcache/', 'fr','l');
-$i18n->init();
+// error_reporting(0);
+  require_once './forms/php-i18n/i18n.class.php';
+  session_start();
+if (isset($_POST["lang"])){function clean($string){$string = str_replace(' ', '-', $string);return preg_replace('/[^A-Za-z0-9\-]/', '', $string);}$_SESSION["lang"]=clean($_POST["lang"]);}
+  $i18n = new i18n('./forms/php-i18n/lang/lang_{LANGUAGE}.json', './forms/php-i18n/langcache/', 'fr','l');
+  $i18n->init();
 ?>
 <!DOCTYPE html>
-<html lang="<?php echo $_SESSION["lang"];?>">
+<html lang="<?php echo $i18n->getappliedLang();;?>">
 <head>
     <meta charset="UTF-8">
     <meta name="description" >
@@ -37,8 +38,8 @@ $i18n->init();
 
         <div class="nav-menu">
             <a href="index.php">
-                <img src="img/fits logo.jpeg" alt="" style="width: 95px;height: 55px;">
-            </a>
+            <img src="img/fits logo.jpeg" alt="" style="width: 95px;height: 55px;">
+        </a>
             <nav class="mainmenu mobile-menu">
                 <ul>
                     <li class="active"><a href="./index.php"><?php echo l::menu_home;?></a></li>
@@ -48,61 +49,79 @@ $i18n->init();
                     <li><a href="./blog.php"style="font-size:14px"><?php echo l::menu_blog;?></a></li>
                     <li><a href="./contact.php"style="font-size:14px"><?php echo l::menu_contact;?></a></li>
                     <li><a href="./partners.php"style="font-size:14px"><?php echo l::menu_partners;?></a></li>
-                    <li><div class="switch-lang">
+                    <li><div class="switch-lang"> 
 
-                            <div class="current-lang">
-                                <img class="lang-flag" src="img/<?php echo $_SESSION["lang"];?>.png"/>
-                                <p class="lang-text"><?php echo l($_SESSION["lang"]);?></p>
-                            </div>
-                            <div class="lang-dropdown">
-                                <?php
-                                $languages=array('fr','ar');
-                                foreach($languages as $l) {
-                                    if ($l != $_SESSION["lang"]){
-                                        echo '<div class="selecting-lang" lang="'.$l.'"><img class="lang-flag" src="img/'.$l.'.png"/>
+            <div class="current-lang">
+                <img class="lang-flag" src="img/<?php echo $i18n->getappliedLang();?>.png"/>
+              <p class="lang-text"><?php echo l($i18n->getappliedLang());?></p>
+            </div>
+            <div class="lang-dropdown">
+              <?php 
+              $languages=array('fr','ar');
+              foreach($languages as $l) {
+                if ($l != $i18n->getappliedLang()){
+              echo '<div class="selecting-lang" lang="'.$l.'"><img class="lang-flag" src="img/'.$l.'.png"/>
                 <p class="lang-text">'.l($l).'</p></div>';}}?>
-                            </div>
-                    </li>
+              </div>
+            </li>
                 </ul>
             </nav>
-            <a href="index.php"> <img src="img/ue.png" alt="" style="width:90px;height: 55px"> </a>
+                  <a href="index.php"> <img src="img/ue.png" alt="" style="width:90px;height: 55px"> </a>
         </div>
         <div id="mobile-menu-wrap"></div>
     </div>
 </header>
+    
 
-
-
-<section class="newslatter-section">
-    <div class="container">
-        <div class="newslatter-inner set-bg" data-setbg="img/newslatter-bg.jpg">
-            <div class="ni-text">
-                <h3><?php echo l::newsletter_h3;?></h3>
-                <p><?php echo l::newsletter_p;?></p>
+    <!-- Contact Top Content Section Begin -->
+    <section class="contact-content-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="cc-text set-bg" data-setbg="img/contact-content-bg.jpg">
+                        <div class="row">
+                            <div class="col-lg-8 offset-lg-4">
+                                <div class="section-title">
+                                </div>
+                                <div class="cs-text">
+                                    <div class="ct-address">
+                                        <span><?php echo l::contact_adr;?></span>
+                                        <p><?php echo l::contact_p2;?></p>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <span><?php echo l::contact_phone;?></span>
+                                            26 044 341
+                                        </li>
+                                        <li>
+                                            <span><?php echo l::contact_email;?></span>
+                                            contact@fits.tn
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cc-map">
+                        <iframe
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=jemna%20kbili%20&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                            height="580" style="border:0;" allowfullscreen=""></iframe>
+                        <div class="map-hover">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="map-hover-inner">
+                                <h5>
+                                    <?php echo l::contact_h2;?>
+                                </h5>
+                                <p><?php echo l::contact_p1;?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <form class="ni-form">
-                <input type="text" placeholder="Your email" name="email" type="email" required="">
-                <button type="button" name="btn"><?php echo l::newsletter_btn;?></button>
-                <script type="text/javascript">
-                    var form =document.getElementsByTagName("form")[0];
-                    form.btn.addEventListener('click', function() {
-                        var http = new XMLHttpRequest();
-                        http.open('POST', 'forms/newsletter.php', true);
-                        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-                        http.onreadystatechange = function() {
-                            if(http.readyState == 4 && http.status == 200 && http.responseText){
-                                form.email.style="background:"+http.responseText;
-                            }}
-                        http.send("email="+form.email.value);
-                    });
-
-                </script>
-            </form>
         </div>
-    </div>
-</section>
-<!-- Newslatter Section End -->
-
+    </section>
 
 
 

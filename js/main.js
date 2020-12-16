@@ -121,3 +121,14 @@
     });
 
 })(jQuery);
+    for (var t of document.getElementsByClassName('selecting-lang')){
+  t.addEventListener('click', function() {
+var http = new XMLHttpRequest();
+http.open('POST', 'index.php', true);
+http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+http.onreadystatechange = function() {
+    if(http.readyState == 4 && http.status == 200 && http.responseText){
+        window.location.reload();
+    }}
+http.send("lang="+this.getAttribute("lang"));
+});}
