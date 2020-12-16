@@ -120,7 +120,7 @@
 			"item2":{
 				"h6":"Atelier Jeux D'acteur (Touzer)",
 				"p":"19 Dec 2020",
-					"date":{"p1":"Date de début - Fin","p2":"19 Dec 2020 - 31 Jan 2021","p3":"Touzer"},
+				"date":{"p1":"Date de début - Fin","p2":"19 Dec 2020 - 31 Jan 2021","p3":"Touzer"},
 				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Touzer"},
 				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
 				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
@@ -128,7 +128,7 @@
 			"item3":{
 				"h6":"Atelier Jeux D'acteur (Gabes)",
 				"p":"20 Dec 2020",
-					"date":{"p1":"Date de début - Fin","p2":"20 Dec 2020 - 31 Jan 2021","p3":"Gabes"},
+				"date":{"p1":"Date de début - Fin","p2":"20 Dec 2020 - 31 Jan 2021","p3":"Gabes"},
 				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Gabes"},
 				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
 				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
@@ -136,7 +136,7 @@
 			"item4":{
 				"h6":"Atelier Jeux D'acteur (Kébili)",
 				"p":"20 Dec 2020",
-					"date":{"p1":"Date de début - Fin","p2":"20 Dec 2020 - 31 Jan 2021","p3":"Kébili"},
+				"date":{"p1":"Date de début - Fin","p2":"20 Dec 2020 - 31 Jan 2021","p3":"Kébili"},
 				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Kébili"},
 				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
 				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
@@ -144,7 +144,7 @@
 			"item5":{
 				"h6":"Atelier Jeux D'acteur (Tataouine)",
 				"p":"21 Dec 2020",
-					"date":{"p1":"Date de début - Fin","p2":"21 Dec 2020 - 31 Jan 2021","p3":"Tataouine"},
+				"date":{"p1":"Date de début - Fin","p2":"21 Dec 2020 - 31 Jan 2021","p3":"Tataouine"},
 				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Tataouine"},
 				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
 				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
@@ -152,7 +152,7 @@
 			"item6":{
 				"h6":"Atelier Jeux D'acteur (Medenine)",
 				"p":"21 Dec 2020",
-					"date":{"p1":"Date de début - Fin","p2":"21 Dec 2020 - 31 Jan 2021","p3":"Medenine"},
+				"date":{"p1":"Date de début - Fin","p2":"21 Dec 2020 - 31 Jan 2021","p3":"Medenine"},
 				"status":{"p1":"Statut","p2":"Non-démarré","p3":"Medenine"},
 				"prob":{"p1":"Les problèmes potentiels qui peuvent avoir un impact sur la réalisation de cette activité","p2":"-Quarantaine complète","p3":"-Couvre-feu","p4":"-L'un des stagiaires a été infecté par le virus Covid19"},
 				"strat":{"p1":"Stratégie d'atténuation des risques/problèmes","p2":"-Report de l'atelier","p3":"-Le groupe entre en auto-quarantaine et l'atelier reporté 20 jours"}
@@ -166,14 +166,14 @@
 	},
 	"contact":{
 		"h2":"Location",
-		"p1":"Itinéraire vers notre centre d'événements",	
+		"p1":"Itinéraire vers notre centre d'événements",
 		"adr":"Addresse:",
 		"p2":"Avenue de Kairouan, Tozeur <br/>Tunisia",
 		"phone":"Phone:",
 		"email":"Email:",
 		"h5":"kébili, jemna, Azzoubeir 4214 ibn Abdalla Rue 2",
 		"p3":"Société \"Art des deux rives\""
-		},
+	},
 	"about_us":{
 		"h2":"À propos",
 		"about_section":{
@@ -181,14 +181,14 @@
 			"p1":"L'idée du festival est née d'un souhait d'expérimentation : c'est de transférer la présentation des pièces du théâtre dans une scène plus large c'est le sable du désert. Les dunes serviront de sièges naturels pour les spectateurs. C'est aussi un souhait de développer le tourisme culturel au gouvernorat de kebili, et spécialement au village de Sabria. C'est aussi de se permettre dans le cadre de ce festival de favoriser la recherche scientifique autour du thème du théâtre et d’inviter le plus grand nombre de chercheurs dans ce domaine. Aussi, cela permettrai d'attirer à la région un grand nombre de stars comédiens, musiciens, chanteurs et autres, action qui pourrai plus encore développer la vie culturelle dans ces régions qui souffrent jusque-là d’un désertification culturelle pendant des décennies.",
 			"h3":"Festival internationnal Du Theatre au Sahara",
 			"p2":"Le festival donnera un nouvel élan au théâtre et pratique théâtrale arabe et méditerranéenne en offrant une nouvelle approche de la présentation du théâtre peu développé jusqu'à là. C’est l’art et la littérature du désert qui sont ici mis en exergue car on exploite l’espace colossal du désert comme étant un théâtre à ciel ouvert dans lequel on peut jouer et présenter toutes sortes d'expressions dramatiques et artistiques. Le festival est né d’un rêve vécu par leurs organisateurs : c'est de faire sortir la présentation théâtrale de son monde naturel (la boîte italienne) envers des espaces immensément ouverts et larges composés de sables et dunes. Cet avantage (et des fois contraintes) obligerait les acteurs et artistes de modifier leurs approches de création en tenant compte de ces nouvelles donnes artistiques et imaginer des solutions et astuces pour se familiariser avec ce monde artistique nouvel."
-	}
+		}
 	},
 	"speakrer":{
 		"h2":"Intervenants principaux"
 
 	},
 	"contact_p":{
-		"h2":"Contactez-nous par e-mail!",
-		"p":"Remplissez le formulaire ci-dessous."
+		"h2":"Contact Us By Email!",
+		"p":"Fill out the form below to recieve a free and confidential intial consultation."
 	}
 }

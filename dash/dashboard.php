@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 if (isset($_POST["title"])&&isset($_POST["tag"])&&isset($_POST["description"])&&isset($_POST["author"])){
-$conn = new PDO("mysql:host=localhost;dbname=blog", 'root');
+$conn = new PDO("mysql:host=localhost;dbname=fitstn_db", 'fitstn_root','Sexmachine69');
 $stmt = $conn->prepare("insert into blog(id, title, tag, img, description, author) values(NULL,:title,:tag,:imgs,:desc,:author)");
 $target_file = "img/blog/".basename($_FILES["imgs"]["name"]);
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));

@@ -47,7 +47,7 @@ $footer = '<footer class="footer-section">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script></body>
 </html>';
 
-    $conn = new PDO("mysql:host=localhost;dbname=blog", 'root','');
+    $conn = new PDO("mysql:host=localhost;dbname=fitstn_db", 'fitstn_root','Sexmachine69');
     $stmt = $conn->prepare("SELECT * FROM blog ORDER BY id DESC LIMIT 9");
     $stmt->execute();
     $arr = $stmt->fetchAll();

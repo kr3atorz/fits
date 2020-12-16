@@ -62,7 +62,7 @@ $form = ' <div class="comment-section spad"> <div class="container"> <div class=
 // <h4>'.$arr["secondary_description"].'</p>
 // </div>
 
-$conn = new PDO("mysql:host=localhost;dbname=blog", 'root','');
+$conn = new PDO("mysql:host=localhost;dbname=fitstn_db", 'fitstn_root','Sexmachine69');
 $stmt = $conn->prepare("SELECT * FROM blog where id = :x");
 $stmt->bindParam(':x', $_GET['q']);
 $stmt->execute();
