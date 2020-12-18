@@ -119,21 +119,21 @@
 				"fin": "Date de fin",
 				"risque": "Risques/problèmes potentiels",
 				"strat": "Stratégie d'atténuation des risques",
-				"statut": "Statut",
+				"statut": "Statut"
 			},
 			"conf": {
 				"nom": "Conférence de presse",
 				"risque1": "Quarantaine complète",
 				"risque2": "Couvre-feu",
 				"start": "Report de la conférence",
-				"status": "Non-démarré",
+				"status": "Non-démarré"
 			},
 			"fest": {
 				"nom": "Festival",
 				"risque1": "Quarantaine complète",
 				"risque2": "Couvre-feu",
 				"start": "Report le Festival",
-				"status": "Non-démarré",
+				"status": "Non-démarré"
 			}
 		},
 		"nav":{

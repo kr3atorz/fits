@@ -3,7 +3,7 @@ error_reporting(0);
   require_once './forms/php-i18n/i18n.class.php';
   session_start();
 if (isset($_POST["lang"])){function clean($string){$string = str_replace(' ', '-', $string);return preg_replace('/[^A-Za-z0-9\-]/', '', $string);}$_SESSION["lang"]=clean($_POST["lang"]);}
-  $i18n = new i18n('./forms/php-i18n/lang/lang_{LANGUAGE}.json', './forms/php-i18n/langcache/', 'fr','l');
+  $i18n = new i18n('./forms/php-i18n/lang/lang_{LANGUAGE}.json', './forms/php-i18n/langcache/', 'ar','l');
   $i18n->init();
 ?>
 <!DOCTYPE html>
