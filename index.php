@@ -7,7 +7,7 @@ if (isset($_POST["lang"])){function clean($string){$string = str_replace(' ', '-
   $i18n->init();
 ?>
 <!DOCTYPE html>
-<html lang="<?php echo $i18n->getappliedLang();;?>">
+<html lang="<?php echo $i18n->getappliedLang();?>">
 <head>
     <meta charset="UTF-8">
     <meta name="description" >
